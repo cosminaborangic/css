@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: #ccffff;
+}
+#main {
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    background: #ccffff;
+    flex-grow: 20;
+}
+header{
+    flex-grow: 1;
+    background-color: #0099cc;
+}
+footer{
+    flex-grow: 1;
+    background-color: #ff99ff;
+}
+
+nav {
+    
+    background: #ffff99;;
+    display: flex;
+    flex-direction: row;
+}
+
+/*partea de meniu*/
+nav a {
+    flex-grow: 1;
+    background-color: #ffff99; 
+    color: black; 
+    padding: 15px; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ffff99; 
+}
+
+nav a:active {
+    background-color: #4CAF50; 
+    color: white;
+}
